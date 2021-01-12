@@ -14,6 +14,7 @@ conda create -y -q -n molbert -c rdkit rdkit=2019.03.1.0 python=3.7.3
 Then install the package by running the following commands from the cloned directory:
 ```shell script
 conda activate molbert
+conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
 pip install -e . 
 ```
 
